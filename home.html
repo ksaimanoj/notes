@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Git: Notes</title>
+	</head>
+	<body>
+		<h1>Version Control: Git</h1>
+		<p>It helps us to keep track of the changes made in the code.</p>
+
+		<h3>git init</h3>
+		<p>This command sets up the toosl required to track all the changes made to the project.</p>
+
+		<div>
+			<p>A git project consists of three parts:</p>
+			<ol>
+				<li>
+					<h3>Working directory</h3>
+					<p>This contains all the files that we usually work with.</p>
+				</li>
+				<li>
+					<h3>Staging area</h3>
+					<p>The list of all changes made to the working directory since "last save".</p>
+				</li>
+				<li>
+					<h3>Repository</h3>
+					<p>The list of all the changes made so for since the beginning of time.</p>
+				</li>
+			</ol>
+		</div>
+
+		<div>
+			<h3>General Workflow</h3>
+			<p>Changes are made to the working directory. They are then staged to the staging area and permanently stored in the repository with the commit command.</p>
+
+			<h3>git status</h3>
+			<p>This shows the status of the git project, the number of staged files, unstaged files, changes made, etc.</p>
+
+			<h3>git add filename</h3>
+			<p>This command adds the file to the staging area. It means that we want to track the changes for this file.</p>
+
+			<h3>git diff filename</h3>
+			<p>It shows all the  changes made to the file after it has been staged. These changes are the recent changed.</p>
+
+			<h3>git commit</h3>
+			<p>All the changes in the staging area are permanently stored in the repository.</p>
+		</div>
+
+		<div>
+			<h3>Backtracking</h3>
+			<p>If we want to go back to a previous state, we can use checkout</p>
+
+			<h3>git show HEAD</h3>
+			<p>This displays the git log for the HEAD commit and all the changes that were made for the HEAD commit.</p>
+
+			<h3>git checkout commit</h3>
+			<p>This is a read only command that helps us to view the working directory after a particular commit. The entire working directory changes. There is however no change in the repository.</p>
+
+			<h3>git checkout commit filename</h3>
+			<p>This helps us to go back to an older verison of the file. The changes are made in that particular file only.</p>
+
+			<h3>git reset HEAD filename</h3>
+			<p>This command helps us to unstage files from the staging area. The changes made in the working directory reamain as is.</p>
+
+			<h3>git reset commit</h3>
+			<p>This helps us to change the working directory to the state that it was after any particular commit.</p>
+
+		</div>
+
+	</body>
+</html>
