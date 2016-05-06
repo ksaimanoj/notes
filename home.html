@@ -66,5 +66,28 @@
 
 		</div>
 
+		<div>
+			<h2>Branching</h2>
+
+			<h3>git branch</h3>
+			<p>Displays the list of all the branches and shows the one we are currently on.</p>
+
+			<h3>git branch new_branch</h3>
+			<p>This command creates a new branch with a given name.</p>
+
+			<h3>git checkout branch_name</h3>
+			<p>Used to move between branches. The working directory changes according to the commits.</p>
+
+			<h3>git checkout -b new_branch</h3>
+			<p>This creates a new branch with the given name and then checkout to the new branch</p>
+			<p>This is same as</p>
+			<p>git branch new_branch</p>
+			<p>git checkout new_branch</p>
+
+			<h3>git merge experimental_branch</h3>
+			<p>This merges the contents of the experimental_branch into the current branch we are present on.</p>
+			<p>If the merge is linera, then it is fast-forwarded. But if it is three-way merge, we have to do merge-conflict and then commit.</p>
+		</div>
+
 	</body>
 </html>
