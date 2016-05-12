@@ -1,0 +1,32 @@
+.topic {
+	background-color: #cfc;
+	padding: 15px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	box-shadow: 0 2px 2px grey;
+
+}
+
+p {
+	background-color: #ccf;
+	padding: 10px;
+	margin: 0;
+	margin-bottom: 20px;
+	box-shadow: 0px 2px 2px grey;
+}
+
+h3 {
+	background-color: #aaf;
+	padding: 10px;
+	margin: 0;
+	box-shadow: 0px 2px 3px grey;
+}
+
+h1 {
+	background-color: #7f7;
+	padding: 20px;
+}
+
+body {
+	background-color: #eee;
+}
